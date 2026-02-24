@@ -7,19 +7,17 @@ services:
       - mongo_data:/data/db
 
   backend:
-    build:
-      context: ./backend
+    image: niharlandge/crud-mean-backend:latest
     container_name: tutorials-backend
     restart: unless-stopped
     environment:
-      - MONGODB_URI=mongodb://mongo:27017/dd_db
-      - PORT=8080
+      MONGODB_URI: mongodb://mongo:27017/dd_db
+      PORT: 8080
     depends_on:
       - mongo
 
   frontend:
-    build:
-      context: ./frontend
+    image: niharlandge/crud-mean-frontend:latest
     container_name: tutorials-frontend
     restart: unless-stopped
     depends_on:
