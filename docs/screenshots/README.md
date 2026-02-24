@@ -6,6 +6,7 @@ Required files:
 
 - `01-github-actions-workflow.png`
 - `02-github-actions-success-run.png`
+- `02b-github-actions-deploy-logs.png`
 - `03-dockerhub-images.png`
 - `04-ec2-deployment-containers.png`
 - `05-app-ui-home.png`

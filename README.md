@@ -4,6 +4,8 @@ Production-ready DevOps implementation of a MEAN stack CRUD application using Do
 
 Repository: `https://github.com/nihar-landge/mean-stack-docker-cicd`
 
+Live Application: `http://3.110.143.130`
+
 ## Overview
 
 This project provides a Tutorials CRUD application where each tutorial has:
@@ -185,20 +187,33 @@ Expected:
 
 ## Screenshots
 
-Add screenshots to `docs/screenshots/` using the names below:
+### 1) CI/CD Workflow Configuration
 
-1. `01-github-actions-workflow.png` - CI/CD workflow definition
-2. `02-github-actions-success-run.png` - Successful pipeline execution
-3. `03-dockerhub-images.png` - Docker image build and push results
-4. `04-ec2-deployment-containers.png` - Running containers on VM
-5. `05-app-ui-home.png` - Application UI running on EC2 public IP
-6. `06-nginx-config-and-routing.png` - Nginx config/infrastructure proof
+![CI/CD Workflow](docs/screenshots/01-github-actions-workflow.png)
 
-Example markdown usage:
+### 2) CI/CD Pipeline Successful Execution
 
-```md
-![CI/CD Run](docs/screenshots/02-github-actions-success-run.png)
-```
+![CI/CD Successful Run](docs/screenshots/02-github-actions-success-run.png)
+
+### 3) Deploy Job Logs (EC2)
+
+![Deploy Logs](docs/screenshots/02b-github-actions-deploy-logs.png)
+
+### 4) Docker Hub Image Build and Push
+
+![Docker Hub Images](docs/screenshots/03-dockerhub-images.png)
+
+### 5) Application Deployment on EC2
+
+![EC2 Container Status](docs/screenshots/04-ec2-deployment-containers.png)
+
+### 6) Working UI on Public IP
+
+![Application UI](docs/screenshots/05-app-ui-home.png)
+
+### 7) Nginx Reverse Proxy and API Routing Proof
+
+![Nginx Routing Proof](docs/screenshots/06-nginx-config-and-routing.png)
 
 ## Troubleshooting
 
