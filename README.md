@@ -4,8 +4,7 @@ Production-ready DevOps implementation of a MEAN stack CRUD application using Do
 
 Repository: `https://github.com/nihar-landge/mean-stack-docker-cicd`
 
-Live Application: `http://3.110.143.130`
-Live Application: `[http://3.110.143.130](http://3.110.143.130)`
+Live Application: [http://3.110.143.130](http://3.110.143.130)
 
 
 ## Overview
